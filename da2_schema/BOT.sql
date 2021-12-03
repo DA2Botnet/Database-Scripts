@@ -14,7 +14,5 @@ CREATE TABLE BOT (
     LoggerIP        varchar(10)     NOT NULL,
     DirectorIP      varchar(10)     NOT NULL,
     NeedsSetup      int(1)          NOT NULL    DEFAULT(1),
-    MirrorDatabase  varchar(100)    NOT NULL    DEFAULT("TODO: Default URL")
-
 
 );
